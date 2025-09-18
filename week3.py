@@ -49,3 +49,56 @@ num2_as_text = str(num2)
 user_input = input("Please enter your year of birth\n")
 year_of_birth = int(user_input)
 print("Your age is ",2025 - year_of_birth)
+
+
+# print function
+    #working with a separator
+
+#ESCAPE CHARACTERS
+#n (another line
+#t (andother tab)
+#\'
+#\\
+#\"
+
+print("Hello", "world", sep=' ', end=' ')
+print("Hello", "world", sep=' ')
+print("Hello\tworld")
+print("Hello\nworld")
+print("what is the student's name?")
+print('what is the student\'s name?')
+print('Use this symbol \\ to make an excape character')
+
+
+
+#precedence rules
+# multiplication and division come before addition and subtraction
+# if 2 that are equal are on same line you go from left to right
+
+expression = 3+4*0-300+12/3
+print(expression)
+
+expression = 4/2*3
+print(expression)
+
+
+# More about Assignment
+
+x = 3
+x = x + 5
+print(x)
+
+#we can have a shorthand for this expression?\
+
+x +=5 # x = x+5
+print(x)
+#other expressions
+
+x -= 2 # x = x-2
+print(x)
+x *= 3 # x = x*3
+print(x)
+x /= 2 # x = x/2
+print(x)
+x **= 4 # x = x ** 4
+print(x)
