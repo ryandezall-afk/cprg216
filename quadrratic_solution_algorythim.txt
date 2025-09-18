@@ -1,0 +1,8 @@
+1 - read a, b, and c
+2 - determine if a -- 0, if it does x1 = x2 = -c/b
+    if 4ac < b^2
+        then
+    x1 = (-b + sgr(b^2 - 4ac) / 2a)
+    x2 = (-b - sqr(b^2 - 4ac) / 2a)
+
+

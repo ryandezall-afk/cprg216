@@ -20,7 +20,7 @@ print(young)
 
 #python must have letters and underscores numbers. cannot start with number
 
-text_1 = 5
+text_1 = 4.5
 t1 = 3
 msg_1 = "hello" 
 _msg = "Hello world" #valid but has different meaning don't use

@@ -1,0 +1,20 @@
+1- read numbers x, y, and z
+2- compare value of x and y
+    if x > y
+        smallest is y
+    if x < y
+        smallest is x   
+3   if z < smallest
+        smallest = z
+    if z > smallest
+        smallest is x or y, whichever is smallest
+4- print smallest
+
+//
+
+- read x, y, z
+- if x<y
+    y=x
+- if z<y
+    y=z
+- print y
