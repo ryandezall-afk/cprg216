@@ -29,10 +29,11 @@ print("THe value of x * y is:", x*y, "and the type of x is:", type(x), "and the 
 #&&&&&&&&&&&&&
 
 num_a_text = "43"
-num_as_num = int(num_a_text)
+num_as_num = int(num_a_text) #converting string to num
 
-print(num_a_text, type(num_a_text))
-print(num_as_num)
+print(num_a_text, type(num_a_text)) #will print as a text
+print(num_as_num) #will it print???
+print(str(num_as_num)) # equivalent to one above, this happens in background of the one before
 
 num = 3
 num_f = float(3)
@@ -41,3 +42,10 @@ num2 = 3.4
 num2_i = int(num2)
 
 num2_as_text = str(num2)
+
+
+# Using input function.. Note input function always return a string (text)
+
+user_input = input("Please enter your year of birth\n")
+year_of_birth = int(user_input)
+print("Your age is ",2025 - year_of_birth)
