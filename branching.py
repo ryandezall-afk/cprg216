@@ -84,5 +84,43 @@ if month == "April":
     print("April fools")
 if month == "November":
     print("Are you depressed? Terrible month buddy")
-else:
+elif month != "January, Febuary, April, November":
     print("loser")
+
+print("welcome to the quadratic equation solver")
+print("enter three numbers a, b, c")
+a = int(input("enter a:"))
+b = int(input("enter b"))
+c = int(input("enter c"))
+
+if a == 0:
+    x1 = -c/b
+    x2 = -c/b
+    x1 = x2
+    print(x1, x2)
+elif 4*a*c < b**2:
+    x1 = (-b + (b**2 - 4*a*c) ** 0.5 )/(2*a)
+    x2 = (-b - (b**2 - 4*a*c) ** 0.5 )/(2*a)
+    print(x1, x2)
+else:
+    print ("Not possible solution")
+
+#his
+print("welcome to the quadratic equation solver")
+print("enter three numbers a, b, c")
+a = float(input('\n'))
+b = float(input('\n'))
+c = float(input('\n'))
+x1 = 0
+x2 = 0
+if a == 0:
+    x1 = -c/b
+    x2 = -c/b
+else:
+    if b**2 >= 4*a*c:
+        x1 = (-b + (b**2 - 4*a*c) ** 0.5)/(2*a)
+        x2 = (-b - (b**2 - 4*a*c) ** 0.5)/(2*a)
+    else:
+        x1 = None
+        x2 = None
+print("the solution to problem is", x1, x2)
