@@ -30,4 +30,5 @@ elif grade >= 60:
     letter_grade = 'D'
 else:
     letter_grade = 'F'
+
 print ("Your letter grade is", letter_grade)

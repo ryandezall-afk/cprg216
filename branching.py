@@ -78,20 +78,21 @@ if 4>5: #not a complete statement
 month = input("What is your birth month?")
 if month == "January":
     print("First month eh")
-if month == "Febuary":
+elif month == "Febuary":
     print("Ig you're second for everything huh")
-if month == "April":
+elif month == "April":
     print("April fools")
-if month == "November":
+elif month == "November":
     print("Are you depressed? Terrible month buddy")
-elif month != "January, Febuary, April, November":
+else :
     print("loser")
 
 print("welcome to the quadratic equation solver")
 print("enter three numbers a, b, c")
-a = int(input("enter a:"))
-b = int(input("enter b"))
-c = int(input("enter c"))
+a = float(input("enter a:")) 
+b = float(input("enter b"))
+c = float(input("enter c"))
+#my original was int, but float makes more sense bc then we can solve numbers with decimals
 
 if a == 0:
     x1 = -c/b
