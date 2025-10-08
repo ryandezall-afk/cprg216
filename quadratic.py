@@ -3,7 +3,7 @@ print("Welcome to the quadratic equation solver!")
 option = "Yes"
 while option == "Yes":
     print("Please enter three numbers a, b and c")
-    a = float(input("enter A:\n")"\n")
+    a = float(input("enter A:\n"))
     b = float(input("enter B:\n"))
     c = float(input("enter C:\n"))
 
@@ -25,3 +25,4 @@ while option == "Yes":
         else:
             print("No real solution")
     option = input("Do you want to continue? Yes/No\n")
+
