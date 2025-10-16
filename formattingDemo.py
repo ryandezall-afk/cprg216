@@ -52,8 +52,7 @@ print(f"{name2:s} {age2:d}")
 #align right
 print(f"{name1:>11s} {age1:<3d}")
 print(f"{name2:>11s} {age2:<3d}")
-
-print(f"{name1:>11s} {age1:<3d}")
-print(f"{name2:>11s} {age2:<3d}")
+#align center
 title = "Age table"
 print(f"{title:^19s}")
+

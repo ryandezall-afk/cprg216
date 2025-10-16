@@ -17,4 +17,4 @@ for i in range(4):
     print(f"{names[i]:>5s}{GPA[i]:>7.2f}")
 
 for name, gpa in zip(names, GPA):             #I believe his didn't work because he has to zip the the lists
-    print(f"{name:>5s}{gpa:>7.2f}")
+    print(f"{name:>5s}{gpa:>7.2f}")           # I zipped the lists and it worked
