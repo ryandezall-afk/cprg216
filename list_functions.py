@@ -25,5 +25,7 @@ nums.remove(4)
 print(nums)
 del nums[4]
 print(nums)
-nums.pop(0)
+nums.pop(0) #pop usually mean to remove the last element
+#pop is equivilant to delete
 print(nums)
+
