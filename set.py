@@ -136,5 +136,83 @@ print(set("hello"))
 
 
 
+#basic set operations
+
+#union (combine values)
+a = {1, 2, 3}
+b = {3, 4, 5}
+
+print(a.union(b)) 
+# {1, 2, 3, 4, 5}
+
+#intersection
+print(a.intersection(b))  
+# {3}
+
+#difference
+print(a.difference(b))
+# {1, 2}
+
+
+
+#membership test
+a = {10, 20, 30}
+print(20 in a)  # True
+print(5 in a)   # False
+
+
+#Basic Membership test
+students = {"John", "Sara", "Alex"}
+
+name = "Sara"
+
+if name in students:
+    print(name, "is in the class!")
+else:
+    print(name, "is NOT in the class.")
+
+
+#INput example
+students = {"John", "Sara", "Alex"}
+
+name = input("Enter a name: ")
+
+if name in students:
+    print("Student exists in the list.")
+else:
+    print("Student not found.")
+
+
+#not in set
+banned_words = {"spam", "scam", "fake"}
+
+word = "hello"
+
+if word not in banned_words:
+    print("Word is allowed")
+else:
+    print("Word is blocked")
+
+
+#example with numbers
+lucky_numbers = {3, 7, 9}
+
+num = 5
+
+if num in lucky_numbers:
+    print("Lucky number!")
+else:
+    print("Not lucky.")
+
+
+#best practice trick
+colors = {"red", "blue", "green"}
+choice = "blue"
+
+exists = choice in colors
+
+print(exists)  # True
+
+
 
 
