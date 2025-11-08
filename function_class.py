@@ -136,7 +136,7 @@ sq = square()
 print(sq)
 
 
-def welcom_msg():
+def welcome_msg():
     print("WElcome to the student enrolment program")
     print("Please choose from the following options")
     print("1 - Add a new student")
