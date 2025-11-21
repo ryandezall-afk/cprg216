@@ -2,8 +2,7 @@
 import statistics as st
 from math import cos, sqrt
 import os
-from util import *
-import util
+import rename as re
 
 def fact(x):
     result = 1
