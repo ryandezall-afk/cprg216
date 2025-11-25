@@ -4,7 +4,7 @@ option = main_menu()
 
 if option =="1":
     add_student()
-elif
+elif:
     pass
 
  
